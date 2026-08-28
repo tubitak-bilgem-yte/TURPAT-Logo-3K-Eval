@@ -1,0 +1,8 @@
+datasets
+huggingface-hub
+numpy
+pandas
+pillow
+torch
+torchvision
+transformers>=5.8.0

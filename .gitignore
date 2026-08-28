@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/
+outputs*/
+tests/
+visualization/
+weights/
+metu_trademark_dataset_eval/
+flickr27_dataset_eval/
