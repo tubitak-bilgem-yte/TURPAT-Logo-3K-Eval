@@ -1,8 +1,8 @@
-datasets
-huggingface-hub
-numpy
-pandas
-pillow
-torch
-torchvision
-transformers>=5.8.0
+datasets==4.8.4
+huggingface-hub==1.18.0
+numpy==2.4.6
+pandas==2.3.0
+pillow==12.2.0
+torch==2.11.0+cu129
+torchvision==0.26.0+cu129
+transformers==5.11.0

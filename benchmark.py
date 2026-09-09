@@ -25,7 +25,7 @@ MEAN_PADDING_COLOR = (124, 116, 104)
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Benchmark image retrieval models on trademark triplets.")
-    parser.add_argument("--dataset", default="Bilgem-YTE-AI/turpat-marka-eval", help="Hugging Face dataset id.")
+    parser.add_argument("--dataset", default="BILGEM-AI/TURPAT-Logo-3K", help="Hugging Face dataset id.")
     parser.add_argument("--split", default="train", help="Dataset split to evaluate.")
     parser.add_argument("--models", nargs="+", default=DEFAULT_MODELS, help="Model registry keys to benchmark.")
     parser.add_argument("--batch-size", type=int, default=32, help="Embedding batch size.")

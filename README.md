@@ -1,7 +1,7 @@
 # Trademark Triplet Benchmark
 
 Benchmark image embedding models on the private Hugging Face dataset
-`Bilgem-YTE-AI/turpat-marka-eval`.
+`BILGEM-AI/TURPAT-Logo-3K`.
 
 The dataset contains triplets:
 
@@ -36,7 +36,7 @@ Default benchmark:
 
 ```bash
 python benchmark.py \
-  --dataset Bilgem-YTE-AI/turpat-marka-eval \
+  --dataset BILGEM-AI/TURPAT-Logo-3K \
   --split train
 ```
 
