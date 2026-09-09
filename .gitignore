@@ -3,7 +3,6 @@ __pycache__/
 .pytest_cache/
 outputs/
 outputs*/
-tests/
 visualization/
 weights/
 metu_trademark_dataset_eval/
